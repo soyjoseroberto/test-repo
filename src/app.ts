@@ -1,6 +1,6 @@
 class Department {
-    name: string;
-    employees: string[] = [];
+    private name: string;
+    private employees: string[] = [];
 
     constructor(n: string) {
         this.name = n;
@@ -31,3 +31,8 @@ accounting.printEmployeeInformation();
 const accountingCopy = { describe: accounting.describe } // not executing the function
 accounting.describe(); // this yields undefined since 'this.name' does not exist in accountingCopy
 
+// 63. Shorthand initialization
+// constructor(private id: string, public name:string)
+
+// 64. Readonly
+// constructor(private readonly id: string, public name:string)
