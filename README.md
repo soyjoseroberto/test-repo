@@ -1,4 +1,4 @@
-test-repo
+Typescript Sandbox
 =========
 
-This is a test repo.
+This repo started as a follow-along sandbox for a TS course by Academind (Max)
